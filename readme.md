@@ -12,7 +12,7 @@ mm.json
 
 ```json
 {
-	"db":{
+	"dbconfig":{
 		"client": "mysql",
 		"connection": {
 			"host": "127.0.0.1",
@@ -26,7 +26,7 @@ mm.json
 
 ```json
 {
-	"db":{
+	"dbconfig":{
 		"client": "pg",
 		"connection": "pgconnectstring",
 		"searchPath": [
@@ -39,7 +39,7 @@ mm.json
 
 ```json
 {
-	"db":{
+	"dbconfig":{
 		"client": "pg",
 		"version": "7.2",
 		"connection": {
@@ -68,7 +68,7 @@ mm.json
 
 ```json
 {
-	"db":{
+	"dbconfig":{
 		"client": "mysql",
 		"version": "5.7",
 		"connection": {
@@ -83,7 +83,7 @@ mm.json
 
 ```json
 {
-	"db":{
+	"dbconfig":{
 		"client": "mysql",
 		"connection": {
 			"host": "127.0.0.1",
@@ -100,7 +100,7 @@ mm.json
 
 ```json
 {
-	"db":{
+	"dbconfig":{
 		"client": "mysql",
 		"connection": {
 			"host": "127.0.0.1",
@@ -124,7 +124,7 @@ yarn add oracledb
 
 ```json
 {
-	"db":{
+	"dbconfig":{
 		"client": "oracledb",
 		"connection": {},
 		"fetchAsString": [
@@ -143,7 +143,7 @@ yarn add sqlite3
 
 ```json
 {
-	"db":{
+	"dbconfig":{
 		"client": "sqlite3",
 		"connection": {
 			"filename": "./mydb.sqlite"
@@ -160,7 +160,7 @@ yarn add mssql
 
 ```json
 {
-	"db":{
+	"dbconfig":{
 		"client": "mssql",
 		"connection": {
 		}

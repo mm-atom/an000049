@@ -1,5 +1,5 @@
 {
-	"db": {
+	"dbconfig": {
 		"client": "pg",
 		"connection": "postgres://mmstudio:Mmstudio123@127.0.0.1:5432/mmstudio",
 		"pool": {

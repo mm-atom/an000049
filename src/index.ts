@@ -3,7 +3,7 @@ import anylogger from 'anylogger';
 import config from '@mmstudio/config';
 
 const logger = anylogger('@mmstudio/an000049');
-const db = config.db as Config;
+const db = config.dbconfig as Config;
 
 const pg = knex({
 	debug: true,
