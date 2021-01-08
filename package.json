@@ -39,15 +39,24 @@
 		}
 	],
 	"license": "MIT",
-	"dependencies": {},
+	"dependencies": {
+		"knex": "^0.21.15"
+	},
 	"devDependencies": {
+		"@mmstudio/config": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
+		"anylogger": "latest",
 		"ava": "latest",
 		"del-cli": "latest",
 		"eslint": "latest",
 		"eslint-config-prettier": "latest",
 		"eslint-plugin-import": "latest",
+		"pg": "latest",
 		"typescript": "next"
+	},
+	"peerDependencies": {
+		"@mmstudio/config": "*",
+		"anylogger": "*"
 	}
 }

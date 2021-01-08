@@ -1,0 +1,10 @@
+{
+	"db": {
+		"client": "pg",
+		"connection": "postgres://mmstudio:Mmstudio123@127.0.0.1:5432/mmstudio",
+		"pool": {
+			"min": 0,
+			"max": 7
+		}
+	}
+}
