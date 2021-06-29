@@ -9,7 +9,7 @@
 		"lint": "eslint ./src/**/*.ts",
 		"compile": "tsc",
 		"build": "yarn clean && yarn lint && yarn compile",
-		"release": "yarn build && np"
+		"release": "yarn build && np --no-tests"
 	},
 	"repository": {
 		"type": "https+git",
@@ -42,7 +42,8 @@
 	"license": "MIT",
 	"publishConfig": {
 		"access": "public",
-		"registry": "https://registry.npmjs.org"
+		"registry": "https://registry.npmjs.org",
+		"tests": false
 	},
 	"dependencies": {
 		"knex": "^0.95.6",
