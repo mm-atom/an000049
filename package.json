@@ -8,7 +8,8 @@
 		"clean": "del-cli ./dist/",
 		"lint": "eslint ./src/**/*.ts",
 		"compile": "tsc",
-		"build": "npm run clean && npm run lint && npm run compile"
+		"build": "yarn clean && yarn lint && yarn compile",
+		"release": "yarn build && np"
 	},
 	"repository": {
 		"type": "https+git",
@@ -39,8 +40,13 @@
 		}
 	],
 	"license": "MIT",
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org"
+	},
 	"dependencies": {
-		"knex": "^0.95.6"
+		"knex": "^0.95.6",
+		"np": "^7.5.0"
 	},
 	"devDependencies": {
 		"@mmstudio/config": "latest",
