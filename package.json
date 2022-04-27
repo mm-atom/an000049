@@ -46,7 +46,7 @@
 		"tests": false
 	},
 	"dependencies": {
-		"knex": "^0.95.6",
+		"knex": "^2.0.0",
 		"np": "^7.5.0"
 	},
 	"devDependencies": {
