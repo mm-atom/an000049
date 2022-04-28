@@ -20,5 +20,9 @@ export default function an49(config?: Config) {
 	if (!config) {
 		return pg;
 	}
-	return knex(config);
+	return knex({
+		debug: true,
+		...config,
+		log: logger
+	});
 }
