@@ -43,7 +43,9 @@ type DeferredKeySelection<
 		_unionProps: TUnionProps;
 	};
 
-export type Callback<T> = (qb: Knex.QueryBuilder<T, DeferredKeySelection<T, never, false, Record<string, never>, false, Record<string, never>, never>[]>) => unknown;
+export type QueryBuilder<T> = Knex.QueryBuilder<T, DeferredKeySelection<T, never, false, Record<string, never>, false, Record<string, never>, never>[]>;
+
+export type Callback<T> = (qb: QueryBuilder<T>) => unknown;
 
 const logger = anylogger('@mmstudio/an000049');
 const db = config.dbconfig as Config;
