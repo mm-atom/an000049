@@ -43,7 +43,7 @@ type DeferredKeySelection<
 		_unionProps: TUnionProps;
 	};
 
-export type QueryBuilder<T> = Knex.QueryBuilder<T, DeferredKeySelection<T, never, false, Record<string, never>, false, Record<string, never>, never>[]>;
+export type QueryBuilder<T> = Knex.QueryBuilder<T, DeferredKeySelection<T, never, false, {}, false, {}, never>[]>;
 
 export type Callback<T> = (qb: QueryBuilder<T>) => unknown;
 

@@ -222,6 +222,7 @@
 			}
 		],
 		"@typescript-eslint/no-use-before-define": "off",
+		"@typescript-eslint/ban-types": "off",
 		"@typescript-eslint/unbound-method": "off" // Too many bugs right now: https://github.com/typescript-eslint/typescript-eslint/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+unbound-method
 	}
 }
