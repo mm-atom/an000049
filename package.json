@@ -46,11 +46,9 @@
 		"tests": false
 	},
 	"dependencies": {
-		"knex": "^2.0.0",
-		"np": "^7.5.0"
+		"knex": "^2.0.0"
 	},
 	"devDependencies": {
-		"@mmstudio/config": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"anylogger": "latest",
@@ -59,11 +57,12 @@
 		"eslint": "latest",
 		"eslint-config-prettier": "latest",
 		"eslint-plugin-import": "latest",
+		"np": "latest",
 		"pg": "latest",
 		"typescript": "next"
 	},
 	"peerDependencies": {
-		"@mmstudio/config": "*",
+		"@next/env": "*",
 		"anylogger": "*"
 	}
 }

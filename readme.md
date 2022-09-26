@@ -8,8 +8,6 @@
 yarn add pg
 ```
 
-mm.json
-
 ```json
 {
 	"dbconfig":{
